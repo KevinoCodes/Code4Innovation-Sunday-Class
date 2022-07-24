@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <div>
+            <label for="fname">First Number</label><br>
+            <input type="number" id="number1" name="fname"><br>
+            <label for="lname">Second Number</label><br>
+            <input type="number" id="number2" name="lname">
+            <button onclick="calcMultiply()">Multiply</button>
+            <button onclick="calcAddition()">Addition</button>
+            <button onclick="calcSubtraction()">Subtract</button>
+            <button onclick="calcDivision()">Divide</button>
+            <button onclick="calcExponent()">X^2</button>
+        </div>
+        <div>
+            <h2 id="answer"></h2>
+        </div>
+
+        <script src="scripts.js" async defer></script>
+    </body>
+</html>
